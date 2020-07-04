@@ -217,8 +217,8 @@ public class AdminController {
 				List<StockRequestBean> reqInfo = adminService.investorRequest();
 				for (StockRequestBean investorRequest : reqInfo) {
 					log.info("---------------------------------------------------");
-					log.info("Investor Id------>" + investorRequest.getInvestorId());
-					log.info("Investor stockname-->" + investorRequest.getStockId());
+					log.info("Investor Id------->" + investorRequest.getInvestorId());
+					log.info("Investor stockId-->" + investorRequest.getStockId());
 					log.info("---------------------------------------------------");
 				}
 				break;

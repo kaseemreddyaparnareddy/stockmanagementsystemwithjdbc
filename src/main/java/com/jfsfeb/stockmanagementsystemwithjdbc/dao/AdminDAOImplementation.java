@@ -196,13 +196,13 @@ public class AdminDAOImplementation implements AdminDAO {
 
 							} else {
 								throw new StockManagementSystemExceptions(
-										"Invalid Request Id as limit of stocks to buy has exceeded");
+										"Cant accept as limit of stocks to buy has exceeded");
 							}
 						}
 					}
 
 				} else {
-					throw new StockManagementSystemExceptions("This Stock is Already sold ");
+					throw new StockManagementSystemExceptions("This Stock is cant be accepted due to invalid request ");
 				}
 			}
 
